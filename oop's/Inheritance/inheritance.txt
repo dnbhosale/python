@@ -1,0 +1,30 @@
+Inheritance
+==================================================== 
+-> It is a mechanism that allows you to create a hierarchy of classes that share a set of properties and methods by deriving a class from another class.
+-> Inheritance is the capability of one class to derive or inherit the properties from another class. 
+Benefits of inheritance are: 
+--------------------------------
+-> It represents real-world relationships well.
+->It provides the reusability of a code.
+->Less development and maintenance expenses result from an inheritance. 
+
+Python Inheritance Syntax
+-------------------------------------
+Class BaseClass:
+    {Body}
+Class DerivedClass(BaseClass):
+    {Body}
+
+==========================
+Different types of Inheritance:
+===========================
+Single inheritance: When a child class inherits from only one parent class, it is called single inheritance. We saw an example above.
+Multiple inheritances: When a child class inherits from multiple parent classes, it is called multiple inheritances. 
+Multilevel inheritance: When we have a child and grandchild relationship. 
+Hierarchical inheritance More than one derived class are created from a single base.
+Hybrid inheritance: This form combines more than one form of inheritance. Basically, it is a blend of more than one type of inheritance.
+
+->>>>
+Private members of the parent class 
+We don’t always want the instance variables of the parent class to be inherited by the child class i.e. 
+we can make some of the instance variables of the parent class private, which won’t be available to the child class. 
